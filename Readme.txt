@@ -32,18 +32,30 @@ I build a virtual paint using python and computer vision. After running program 
 ->make sure that you have downloaded following library/module:- matplotlib , cv2 , numpy.
 
 -->virtual_paint_cv2.py
-STEP 1 : now open virtual_paint_cv2.py and run it in VScode.
+STEP 1 : open virtual_paint_cv2.py and run it in VScode.
 STEP 2 : After running file it will start your macine webcam and detect objects color and start your work.
 
 ###################################### dino_auto ###############################################
 
-I automate the google dino game using python.It will take screenshot of our screen and find black box and when it detects our player is automatically jump. I set some pixel value when it detects black it will consider black box and our dino will jump.
+I automate the google dino game. I set one small box on dino running path when the color of that box pixecels are changed at that time our dino. will jump and it runs in loop.
 
 ##  Prerequest:-
 ->make sure that you have downloaded following library/module:- pyautogui, time , numpy.
 
--->virtual_paint_cv2.py
+-->dino_auto.py
 STEP 1 : now open dino_auto.py and run it in VScode.
 STEP 2 : Before running file split your screen into 2 parts left side chrome-dino game and right side your code editor and just run your program and start game.
 
-NOTE:::***You need to change height and width accourding to your screen size.currently values are set for 14 inch screen size. if your screen size is different then you have to change the height and width value else it will not work properly.***(for helo contact me on LinkedIn: "www.linkedin.com/in/shyam1320" )
+NOTE:::***You need to change height and width accourding to your screen size.currently values are set for 14 inch monitor screen size. if your screen size is different then you have to change the height and width value else it will not work properly.***(for help contact me on LinkedIn: "www.linkedin.com/in/shyam1320" )
+
+###################################### voice_to_handwritten_text #################################
+
+I made students assignment work easy :) It simply take our voice as an input and our program will convert our voice data to handwritten-text and it will store in given location as .jpg file.
+
+##  Prerequest:-
+->make sure that you have downloaded following library/module:- pywhatkit , speech_recognition .
+
+-->voice_to_handwritten_text.py
+STEP 1 : now open voice_to_handwritten_text.py and run it in VScode.
+STEP 2 : Speak whatever you want to print and your speech will convert to handwritten text.
+
