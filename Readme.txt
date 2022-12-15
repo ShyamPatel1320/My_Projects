@@ -14,6 +14,8 @@ STEP 1 : create a new folder in your machine and store all the files and folders
 STEP 2 : now open that new folder in any code editor recommended VSCode.
 STEP 3 : now open project Flappybird.py file and run it.(make sure that all the steps are followed properly)
 
+####################################  FLAPPY BIRD GAME WITH CV2 #####################################
+
 -->CV2_FlappyBird.py
 STEP 1 : create a new folder in your machine and store all the files and folders in that new folder.
 STEP 2 : now open that new folder in any code editor recommended VSCode.
@@ -59,3 +61,20 @@ I made students assignment work easy :) It simply take our voice as an input and
 STEP 1 : now open voice_to_handwritten_text.py and run it in VScode.
 STEP 2 : Speak whatever you want to print and your speech will convert to handwritten text.
 
+####################################  Detecting and classifying vehicle  #####################################
+
+In this project, I am Worked on a deep learning algorithm with Computer Vision that detects cars and some car details, with using that I classified that car type
+like if car is having yellow license-plate, ola/uber/taxi marks on body then it classified as a commercial vehicle, if car having green number-plate and signs like 
+EV on the car body then classified it as a electric vehicle else it is normal vehicle.
+
+##   Prerequests:-
+
+make sure that you have downloaded following library/module:- glob, os, re(Regular Expresion), cv2, numpy, yolo(darknet file)
+
+-->main.ipynb
+STEP 1 : there is trained model file link is available in My_Projects/Detecting and classifying/readme.txt 
+STEP 2 : Install all the requirements and library in colab
+STEP 3 : Simply pass image or video file of vehicles and you will get the output
+STEP 4 : For running a model check My_Projects/Detecting and classifying/main.ipynb file for code.
+
+***(for the help you can contact me on LinkedIn: "www.linkedin.com/in/shyam1320" )***
